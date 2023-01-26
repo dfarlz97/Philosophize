@@ -29,3 +29,13 @@ body {
     padding-top: 3px; 
     color:rgb(66, 235, 24)
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
