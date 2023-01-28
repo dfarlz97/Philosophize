@@ -64,6 +64,15 @@ body {
     height: 600px;
 }
 
+#thales {
+    object-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 50%;
+}
+
 /* #scroll {
     height: 100px; overflow-y: scroll;
 } 
