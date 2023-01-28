@@ -57,6 +57,13 @@ body {
     border: 3px solid greenyellow;
 }
 
+#philosopherLayout {
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 1500px;
+    height: 600px;
+}
+
 /* #scroll {
     height: 100px; overflow-y: scroll;
 } 
