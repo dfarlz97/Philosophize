@@ -22,62 +22,17 @@ function changeImage(){
       img.src = images[index];
     }
 
+
 function addText() {
-    
+    const para = document.createElement('p');
+    const node = docuement.createTextNode('thales');
+    para.appendChild(node);
+    const element = document.getELementById('')
+    element.appendChild(para)
 }
+
+
 
 images.forEach (addText);
 
-/*function changeImage() {
-    let displayImage = document.getElementById('homeImage')
-    if(displayImage.src.match('/Users/dennis/desktop/question.png')) {
-        displayImage.src = '/Users/dennis/desktop/thales.jpg'
-    } else if(displayImage.src.match('/Users/dennis/desktop/socrates.jpg')) {
-            displayImage.src = '/Users/dennis/desktop/confucius.jpg'
-    } else {
-        displayImage.src = '/Users/dennis/desktop/socrates.jpg'
-    } else if(displayImage.src.match('/Users/dennis/desktop/socrates.jpg')) {
-        displayImage.src = '/Users/dennis/desktop/confucius.jpg'
-    } 
-}
-*/
-/*
-const philosophers = [
-    { 
-        name: "Thales",
-        born: 600 bc,
-        philosophy type: metaphysics,
-    }
-        {
-            name: "Socrates",
 
-    }
-
-]
-
-let imgs = doc.getELementByTagName('imgs') 
-function display(array) {
-    for (i=0; i<=imgs.length; i++) {
-        console.log(array[i]);
-    }
-}
-
-for each img inside the array: 
-
-add a class name to each li + style using appendElement:
-    https://stackoverflow.com/questions/15241915/how-to-change-css-property-using-javascript
-
-function displayImage(src, width, height) {
- var img = document.createElement("img");
- img.src = src;
- img.width = width;
- img.height = height;
- document.body.appendChild(img);
-}
-
-images: 
-
-clickable
-pop-up menu with more info on philosopher + clickable link
-
-scroll bar at bottom of page */
